@@ -1,0 +1,25 @@
+{
+  "name": "io_chat",
+  "version": "1.0.0",
+  "description": "A chat app with node.js with socket.io",
+  "main": "app.js",
+  "scripts": {
+    "start": "@powershell -Command $env:DEBUG='app:*'; nodemon app"
+  },
+  "keywords": [
+    "chatApp",
+    "real-time",
+    "socket.io"
+  ],
+  "author": "Mohammad mohiuddin mostafa kamal akib <mohiuddinmostafakamal@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
+  }
+}
